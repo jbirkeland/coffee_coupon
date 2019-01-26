@@ -51,6 +51,13 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  <script>
+    setTimeout(function alertPrint () {
+      alert("Print Now!");
+      console.log(new Date());
+    }, 5000);
+    alertPrint();
+  </script>
 </body>
 
 </html>
