@@ -97,7 +97,86 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 
+  body {
+    width: 648px;
+    margin: 2em auto;
+  }
+
+  .top-heading {
+    background-color: #c73245;
+    color: #fff;
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0;
+    width: 648px;
+    height: 129px;
+    padding-top: .4em;
+  }
+
+  .top-heading h1 {
+    font-size: 2.3em;
+  }
+
+  .top-heading p {
+    font-size: 3.75em;
+  }
+
+  .main-container {
+    position: relative;
+  }
+
+  .coupon-box {
+    background-color: #f34a62;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-family: sans-serif;
+    color: #fff;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    width: 251px;
+    height: 240px;
+    padding: .5em 1em 0 1em;
+  }
+
+  .coupon-box h2 {
+    font-size: 1.2em;
+    line-height: 1.2em;
+  }
+
+  .coupon-offer {
+    font-size: .85em;
+    margin-top: -.75em;
+  }
+
+  .coupon-button {
+    background-color: #fec5c2;
+    border-radius: 8px;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+    color: #5e2f1c;
+    line-height: 1.15em;
+    width: 187px;
+    height: 55px;
+    padding: 5px;
+    margin: auto;
+  }
+
+  .coupon-box img {
+    position: absolute;
+    right: 49px;
+    bottom: 31px;
+  }
 
 
 
